@@ -8,4 +8,7 @@ class Conexion():
             print(ex)
 
     def crearTablas(self):
-        sqlite3
+        sql_tabla1= """CREATE TABLE IF NOT EXISTS usuarios(id INTEGER PRIMARY KEY AUTOINCREMENT,nombre TEXT, usuario TEX UNIQUE, clave TEXT)"""
+        cur=self.con.cursor()
+        cur.execute(sql_tabla1)
+con=Conexion()
