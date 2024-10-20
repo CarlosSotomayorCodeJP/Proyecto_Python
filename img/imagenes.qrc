@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="xy">
+    <file>banco-union.png</file>
+  </qresource>
+</RCC>
