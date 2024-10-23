@@ -504,7 +504,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap resource="img/imagenes.qrc">:/xy/banco-union.png</pixmap>
+    <pixmap resource="../img/imagenes.qrc">:/xy/banco-union.png</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
@@ -3593,7 +3593,7 @@ border-radius: 8px;</string>
   </widget>
  </widget>
  <resources>
-  <include location="img/imagenes.qrc"/>
+  <include location="../img/imagenes.qrc"/>
  </resources>
  <connections/>
 </ui>
