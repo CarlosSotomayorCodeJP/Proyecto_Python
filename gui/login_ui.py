@@ -17,7 +17,7 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QApplication, QDialog, QLabel, QLineEdit,
     QPushButton, QSizePolicy, QWidget)
-import imagenes_rc
+import img
 
 class Ui_FormLogin(object):
     def setupUi(self, FormLogin):

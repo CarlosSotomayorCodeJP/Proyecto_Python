@@ -1996,7 +1996,7 @@
     <string>Contraseña:</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit">
+  <widget class="QLineEdit" name="Usuario">
    <property name="geometry">
     <rect>
      <x>150</x>
@@ -2483,7 +2483,7 @@
     <string>Ingrese su usuario</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_2">
+  <widget class="QLineEdit" name="Clave">
    <property name="geometry">
     <rect>
      <x>150</x>
@@ -2976,7 +2976,7 @@
     <string>Ingrese su contraseña</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="Acceder">
    <property name="geometry">
     <rect>
      <x>350</x>
@@ -3109,7 +3109,7 @@ border-radius: 8px;</string>
     <string>Aceptar</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_5">
+  <widget class="QLabel" name="Mensaje">
    <property name="geometry">
     <rect>
      <x>60</x>
