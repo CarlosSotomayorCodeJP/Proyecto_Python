@@ -22,4 +22,6 @@ class Conexion():
             self.con.commit()
         except Exception as ex:
             print("Usuario existente",ex) 
-con=Conexion()
+    def conectar(self):
+        return self.con.commit()
+       

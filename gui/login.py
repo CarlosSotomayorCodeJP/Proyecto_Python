@@ -12,9 +12,12 @@ class Login():
     def ingresar (self):
         if len(self.login.txtUsuario.text() ) < 2:
              self.login.lblMensaje.setText("Ingrese un mesaje valido")
+             self.login.txtUsuario.setFocus()
         elif len(self.login.txtClave.text() ) < 3:
             self.login.lblMensaje.setText("Ingrese una contraseña valida")
+            self.login.txtClave.setFocus()
         else:
+            self.login.lblMensaje.setText("")
             pass 
 
     def initGUI(self):
