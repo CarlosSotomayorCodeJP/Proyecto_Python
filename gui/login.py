@@ -8,7 +8,7 @@ from model.usuario import Usuario
 #from PyQt6 import uic 
 class Login():
     def __init__(self):
-        self.login = uic. loadUi("gui/login.ui")
+        self.login = uic.loadUi("gui/login.ui")
         self.initGUI()
         self.login.Mensaje.setText("")
         self.login.show()
