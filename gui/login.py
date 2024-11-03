@@ -2,6 +2,7 @@ from PyQt6 import uic
 from PyQt6.QtWidgets import QMessageBox
 
 from data.user import UsuarioDate
+from gui.main import MainWindow
 from model.usuario import Usuario
 
 #from PyQt6 import uic 
@@ -25,7 +26,8 @@ class Login():
             usuDate=UsuarioDate()
             res=usuDate.login(usu)
             if res:
-                 self.login.Mensaje.setText("OK")
+                 self.main= MainWindow()
+                 self.login.hide()
             else:
                  self.login.Mensaje.setText("Datos de acceso incorrecto")
 

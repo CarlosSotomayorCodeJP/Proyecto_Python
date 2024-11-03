@@ -4,7 +4,7 @@ class UsuarioDate():
 
     def login(self, usuario:Usuario):
         self.db= con.Conexion().conectar()
-        self.cursor=self.db.cursor()
+        self.cursor = self.db.cursor()
         res=self.cursor.execute("SELECT * FROM usuarios WHERE usuario='{}' AND clave='{}' ".format(usuario._usuario, usuario._clave))
         fila = res.fetchone()
         if fila:
