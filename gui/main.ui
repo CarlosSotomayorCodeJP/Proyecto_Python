@@ -23,8 +23,44 @@
      <height>33</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="btnRegistrarTransferencias"/>
+    <addaction name="btnReportarTransferencia"/>
+    <addaction name="btnHistorialTransferencias"/>
+   </widget>
+   <widget class="QMenu" name="menuCreditos">
+    <property name="title">
+     <string>Creditos</string>
+    </property>
+    <addaction name="actionDesarrolaores"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuCreditos"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionDesarrolaores">
+   <property name="text">
+    <string>Desarrolaores</string>
+   </property>
+  </action>
+  <action name="btnRegistrarTransferencias">
+   <property name="text">
+    <string>Registrar Transferencias</string>
+   </property>
+  </action>
+  <action name="btnReportarTransferencia">
+   <property name="text">
+    <string>Reportar Transferencia</string>
+   </property>
+  </action>
+  <action name="btnHistorialTransferencias">
+   <property name="text">
+    <string>Historial de Transferencias</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
