@@ -11,4 +11,8 @@ class MainWindow():
         self.main.showMaximized()
 
     def iniGUI(self):
-        self.main.btnRegistrarTransferencias.triggered.connect(lambda: RegistroWindow())
+        self.main.btnRegistrarTransferencias.triggered.connect(self.abrirRegistro)
+        
+    def abrirRegistro(self):
+        self.registro = uic.loadUi("gui/registro.ui")
+        self.registro.show()
